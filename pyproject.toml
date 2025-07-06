@@ -1,0 +1,16 @@
+[project]
+name = "optoolkit"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "charlesmdunn", email = "dunncharlesm@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project.scripts]
+input = "optoolkit.dbglue.cli:main"
