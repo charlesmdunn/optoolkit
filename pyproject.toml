@@ -13,4 +13,6 @@ dependencies = []
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project.scripts]
-input = "optoolkit.dbglue.cli:main"
+dbin = "optoolkit.dbglue.input_cli:main"
+dbrun = "optoolkit.dbglue.run_cli:main"
+dbout = "optoolkit.dbglue.output_cli:main"
